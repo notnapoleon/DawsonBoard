@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DawsonBoard Live</title>
+        <link rel="icon" href="icon.png">
+        <style>
+            body {
+                background-image: linear-gradient(to right, #9bf8f4, #6f7bf7);
+                color: white;
+                font-family: 'Consolas', monospace;
+            }
+
+            .box {
+                padding-top: 3px;
+                padding-bottom: 3px;
+                background-color: #1b1b1b;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1000px;
+                border-radius: 10px;
+            }
+
+            #btn {
+                margin: 10px;
+                background-color: #2b2b2b;
+                border: 1px solid rgb(122, 92, 156);
+                border-radius: 5px;
+                font-size: large;
+                padding: 15px;
+                color: white;
+                font-family: 'Consolas', monospace;
+            }
+            
+            #btn:hover {
+                color: black;
+                background-color: rgb(122, 92, 156);
+            }
+
+            .gridbox {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            a:hover {
+                color: pink;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            @media (max-width:600px) {
+                .gridbox {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="box">
+            <h1 align="center">DawsonBoard Live</h1>
+            <h3 align="center">Created by <a href="https://www.gnulectures.xyz/">NotNapoleon</a></h3>
+            <div class="gridbox">
+                    <button id="btn" onclick="bingbong.play();">Bing Bong</button>
+                    <script type="text/javascript">
+                        const bingbong = new Audio();
+                        const laugh = new Audio();
+                        const hellopreeti = new Audio();
+                        const orgasm = new Audio();
+                        const fuckall = new Audio();
+                        const iliketheway = new Audio();
+                        const mobilephone = new Audio();
+                        const marlene = new Audio();
+                        const rightupyourarsehole = new Audio();
+                        const fatbastard = new Audio();
+                        const twerk = new Audio();
+                        const dingdong = new Audio();
+                        bingbong.src = "audios/bingbong.wav";
+                        laugh.src = "audios/cunt.wav";
+                        hellopreeti.src = "audios/hellopreeti.wav";
+                        orgasm.src = "audios/orgasm.wav";
+                        fuckall.src = "audios/fuckall.wav";
+                        iliketheway.src = "audios/iliketheway.wav";
+                        mobilephone.src = "audios/mobilephone.wav";
+                        marlene.src = "audios/marlene.wav";
+                        rightupyourarsehole.src = "audios/rightupyourarsehole.wav";
+                        fatbastard.src = "audios/fatbastard.wav";
+                        twerk.src = "audios/twerk.wav"
+                        dingdong.src = "audios/dingdong.wav"
+                    </script>
+                    <button id="btn" onclick="laugh.play();">Laugh</button>
+                    <button id="btn" onclick="hellopreeti.play();">Hello Preeti</button>
+                    <button id="btn" onclick="orgasm.play();">Orgasm</button>
+                    <button id="btn" onclick="fuckall.play();">Couldn't fucking fart</button>
+                    <button id="btn" onclick="iliketheway.play();">I like the way</button>
+                    <button id="btn" onclick="mobilephone.play();">Mobile Phone</button>
+                    <button id="btn" onclick="marlene.play();">Marlene</button>
+                    <button id="btn" onclick="rightupyourarsehole.play();">Right up your arsehole</button>
+                    <button id="btn" onclick="fatbastard.play();">Fat Bastard</button>
+                    <button id="btn" onclick="twerk.play();">Half-Naked Twerk</button>
+                    <button id="btn" onclick="dingdong.play();">Ding Dong</button>
+            </div>
+            </div>
+            <br>
+            <div class="box">
+                <p align="center">DawsonBoard Live is still in development, more sounds will be added in the future. Have fun using it!~</p>
+            </div>
+        </div>
+    </body>
+</html>
